@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calculator_main">
+            <input type="text" placeholder="0" id="result">
+            <button onclick="clr()">AC</button>
+            <button onclick="Dlet()">Del</button>
+            <button onclick="display('/')">/</button>
+            <button onclick="display('*')">*</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('%')">%</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="display('.')">.</button>
+            <button class="equal_sign" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>

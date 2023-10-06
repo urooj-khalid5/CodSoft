@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- MENU -->
+    <div class="container-head">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./img/uk.png"></a>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="selection()"><b>HOME</b></a></li>
+                    <li><a href="#about" onclick="selection()"><b>ABOUT</b></a></li>
+                    <li><a href="#skills" onclick="selection()"><b>SKILLS</b></a></li>
+                    <li><a href="#projects" onclick="selection()"><b>PROJECTS</b></a></li>
+                    <li><a href="#contact" onclick="selection()"><b>CONTACT ME</b></a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="Menu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION HOME -->
+    <section id="home" class="home">
+        <div class="container-home">
+            <div class="container-img">
+                <img src="img/hero.jpeg" alt="">
+            </div>
+            <h1>UROOJ KHALID</h1>
+            <h2 class="job">I am a Front-End Developer</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/urooj.khalid.5682?mibextid=ZbWKwL" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/urooj-khalid-a40707285/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/urooj-khalid5" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/_iurooj_khalid?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION ABOUT -->
+    <section id="about" class="about">
+        <div class="container-about">
+            <h2>About Me</h2>
+            <p><span>Hey! its Urooj Khalid .</span> I'm a front-end developer who brings ideas to life through visually
+                captivating and user-centric websites. My portfolio demonstrates my passion for crafting engaging online
+                experiences that seamlessly blend design and functionality.</p>
+
+            <div class="personal-details">
+                <!-- details -->
+                <div class="col">
+                    <h3>Personal Details</h3>
+                    <ul>
+                        <li>
+                            <strong>Name</strong>
+                            Urooj Khalid
+                        </li>
+                        <li>
+                            <strong>Age</strong>
+                            21
+                        </li>
+                        <li>
+                            <strong>Qualification</strong>
+                            Undergraduate-CS program
+                        </li>
+                        <li>
+                            <strong>Post</strong>
+                            Front-End Developer
+                        </li>
+                        <li>
+                            <strong>Language</strong>
+                            Urdu , English
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="https://drive.google.com/file/d/1VX3bdN42BOgg9dGtxFMHZdfnGGm69u10/view?usp=sharing"
+                    target="_blank">
+                    <button>
+                        <b>DOWNLOAD CV</b> <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </a>
+            </div>
+    </section>
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="container-skills">
+            <h2>Skills</h2>
+            <div class="div2">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skill-div">
+                            <div class="progress javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="skill-div">
+                            <div class="progress html">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="skill-div">
+                            <div class="progress css">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="skill-div">
+                            <div class="progress bootstrap">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-div">
+                            <div class="progress python">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="skill-div">
+                            <div class="progress cpp">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+    <!-- SECTION PROJECT -->
+    <section id="projects" class="portfolio">
+        <div class="container-portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="div1">
+                <div class="title-img">
+                    <a href="https://supermarket-multiserver-model.netlify.app/" target="_blank"><img
+                            src="img/imtiaz.png" alt="">
+                        <div class="overlay">
+                            <h3>Imtiaz Simulator</h3>
+                            <p>Html css Js and c++</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="title-img">
+                    <a href="https://scheduling-algos.netlify.app/" target="_blank"><img src="img/cpu.png" alt="">
+                        <div class="overlay">
+                            <h3>Operating System Scheduling</h3>
+                            <p>Html css and vanila js</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="title-img">
+                    <a href="https://urooj-darazsite.netlify.app/" target="_blank"><img src="img/daraz.png" alt="">
+                        <div class="overlay">
+                            <h3>Daraz clone</h3>
+                            <p>Html css and js</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="title-img">
+                    <a href="https://slushie-webpage.netlify.app/" target="_blank"><img src="img/slushie.png" alt="">
+                        <div class="overlay">
+                            <h3>Slushie Landing Page</h3>
+                            <p>Html css and js</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="title-img">
+                    <a href="https://saylaniwebsite-byrooj.netlify.app/" target="_blank"> <img src="img/saylani.png"
+                            alt="">
+                        <div class="overlay">
+                            <h3>Saylani Website</h3>
+                            <p>Html Css and firebase</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="title-img">
+                    <a href="https://barcelona-clone.netlify.app/" target="_blank"><img src="img/messi.png" alt="">
+                        <div class="overlay">
+                            <h3>Barcelona Landing clone</h3>
+                            <p>Html css</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="contacts">
+        <div class="container-contact">
+            <h2>CONTACT ME</h2>
+            <form action="#" method="POST">
+                <div class="fila">
+                    <div class="col">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="text" name="number" placeholder="Your number" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                        <button type="submit">
+                            <b>Submit</b>
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924247.1417021892!2d66.49601564592707!3d25.19174065536782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh!5e0!3m2!1sen!2s!4v1696169980361!5m2!1sen!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Malir,karachi
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    +92-3102339880
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    uroojkhalid181@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="foot">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
